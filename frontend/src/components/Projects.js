@@ -15,6 +15,9 @@ import NFT from '../project_images/NFT.jpeg';
 import Nike from '../project_images/Nike.jpeg';
 import SystemSage from '../project_images/SystemSage.png';
 import Numina from '../project_images/numina.png';
+import RealSt from '../project_images/real-estate.png';
+import chatPdf from '../project_images/chatpdf.png';
+import webbuilder from '../project_images/web-builder.png';
 
 const projectData = [
   {
@@ -65,6 +68,36 @@ const projectData = [
   
     link:'https://www.npmjs.com/package/numinajs',
     category: ['package'],
+    featured: true
+  },
+  {
+    title: 'Real Estate Chatbot(Dubai)',
+    description: 'A chatbot for finding best locations of real estate properties',
+    tech: ['LLM', 'RAG','Streamlit','python'],
+    image: RealSt,
+    link: "https://arjun988-dubai-realestate-chatbot-realestate-qsomhq.streamlit.app/",
+    
+    category: ['RAG', 'AI', 'Chatbot'],
+    featured: true
+  },
+  {
+    title: 'Website Builder',
+    description: 'Build a simple website using a simple prompt and keep on updating it by directly interacting with website',
+    tech: ['LLM', 'RAG','Streamlit','python'],
+    image: webbuilder,
+    github:"https://github.com/arjun988/website-builder",
+    
+    category: ['RAG', 'AI', 'Chatbot'],
+    featured: true
+  },
+  {
+    title: 'ChatPdf',
+    description: 'Upload the PDF and chat with it to gain insights',
+    tech: ['LLM', 'RAG','Streamlit','python'],
+    image: chatPdf,
+    link:"https://chatpdf-arjun.streamlit.app/",
+    
+    category: ['RAG', 'AI', 'Chatbot'],
     featured: true
   },
   {
