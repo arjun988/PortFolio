@@ -18,7 +18,9 @@ import Numina from '../project_images/numina.png';
 import RealSt from '../project_images/real-estate.png';
 import chatPdf from '../project_images/chatpdf.png';
 import webbuilder from '../project_images/web-builder.png';
-
+import Attention from '../project_images/Attention.png';
+import RL from '../project_images/RL.png';
+import fractal from '../project_images/fractal.png';
 const projectData = [
   {
     title: 'Archetype Labs',
@@ -27,7 +29,7 @@ const projectData = [
     image: Alab,
     
     link:'https://archetype-lab.vercel.app/',
-    category: ['Frontend', 'Web'],
+    category: ['Frontend'],
     featured: true
   },
   {
@@ -37,7 +39,7 @@ const projectData = [
     image: C3D,
     
     link:'https://c3-d.vercel.app/',
-    category: ['Frontend', 'Web'],
+    category: ['Frontend'],
     featured: true
   },
   {
@@ -47,7 +49,7 @@ const projectData = [
     image: GitmindImage,
     github: 'https://github.com/arjun988/GITMIND',
    
-    category: ['AI', 'Web','Full Stack'],
+    category: ['AI','Full Stack'],
     featured: true
   },
   {
@@ -57,7 +59,7 @@ const projectData = [
     image: HackMate,
     github: 'https://github.com/arjun988/HackMate',
     
-    category: ['AI', 'Web','Full Stack'],
+    category: ['AI','Full Stack'],
     featured: true
   },
   {
@@ -107,7 +109,7 @@ const projectData = [
     image: StoryCraft,
     github: 'https://github.com/TechManTejas/StoryCraft_Client',
     
-    category: ['AI', 'Mobile', 'Full Stack'],
+    category: ['AI', 'Full Stack'],
     featured: true
   },
   {
@@ -117,7 +119,7 @@ const projectData = [
     image: DailyHub,
    
     link:'https://daily-hub.vercel.app/',
-    category: ['Frontend', 'Web'],
+    category: ['Frontend'],
     featured: true
   },
   {
@@ -127,7 +129,7 @@ const projectData = [
     image: Nexus,
   
     link:'https://nexus-teal-omega.vercel.app/',
-    category: ['Frontend', 'Web'],
+    category: ['Frontend'],
     featured: true
   },
   {
@@ -136,7 +138,7 @@ const projectData = [
     tech: ['React ','ElectronJS', 'Tailwind CSS'],
     image: Mutalite,
     link:'https://mutaengine.cloud/mutaCryptorLite',
-    category: ['Frontend', 'Desktop'],
+    category: ['Frontend'],
     featured: true
   },
   {
@@ -146,7 +148,7 @@ const projectData = [
     image: Mutapro,
     link:'https://mutaengine.cloud/mutaCryptorPro',
     
-    category: ['Frontend', 'Desktop'],
+    category: ['Frontend'],
     featured: true
   },
   {
@@ -156,7 +158,7 @@ const projectData = [
     image: NFT,
     github: 'https://github.com/arjun988/NFT',
     
-    category: ['Frontend', 'Mobile'],
+    category: ['Frontend'],
     featured: true
   },
   {
@@ -166,7 +168,7 @@ const projectData = [
     image: Nike,
     github: 'https://github.com/arjun988/NikeApp',
     
-    category: ['Frontend', 'Mobile'],
+    category: ['Frontend'],
     featured: true
   },
   {
@@ -176,8 +178,36 @@ const projectData = [
     image: SystemSage,
     github: 'https://github.com/arjun988/SystemSage',
     
-    category: ['Full Stack', 'Desktop'],
+    category: ['Full Stack'],
     featured: true
+  },
+  {
+    title: 'Fractal Regularization',
+    description: 'Developed and designed a new regularization algorithm that is inspired from fractals',
+    tech: ['Tensorflow', 'numpy','pytorch'],
+    image: fractal,
+    link: 'https://pypi.org/project/fractal-regularization/',
+    github: 'https://drive.google.com/file/d/1qhlPx5Vof8dIBa1hvy2fftzJo9LgHIEG/view?usp=sharing',
+    category: ['AI','Deep Learning','package'],
+    featured: true,
+  },
+  {
+    title: 'Attention is all you need',
+    description: 'Implementated the research paper Attention is all you need from scratch',
+    tech: ['Tensorflow', 'numpy'],
+    image: Attention,
+    github: 'https://github.com/arjun988/Attention_is-_all_you_need',
+    category: ['AI', 'Deep Learning'],
+    featured: true,
+  },
+  {
+    title: 'Reinforcement Learning : Ping Pong Game ',
+    description: 'Implementated the entire algorithm and game learning platform from scratch',
+    tech: ['Tensorflow', 'numpy', 'matplotlib'],
+    image: RL,
+    github: 'https://github.com/arjun988/PingPong_RL',
+    category: ['AI','Reinforcement Learning', 'Deep Learning'],
+    featured: true,
   },
 ];
 const Projects = () => {
